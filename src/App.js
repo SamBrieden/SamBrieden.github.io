@@ -11,7 +11,7 @@ function App() {
 }
 
 const Greeting = styled.div`
-  font-size: 40pt;
+  font-size: 80pt;
 `;
 
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,0 +1,9 @@
+* {
+    font-family: "aktiv-grotesk", Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #fbf9f7;
+}

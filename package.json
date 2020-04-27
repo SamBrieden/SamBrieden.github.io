@@ -1,49 +1,37 @@
 {
-  "homepage": "https://github.com/SamBrieden/SamBrieden.github.io#readme",
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "predeploy": "rm -rf dist && parcel build index.html",
-    "build": "NODE_ENV=production parcel build index.html --public-url https://sambrieden.github.io/",
-    "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SamBrieden/SamBrieden.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SamBrieden/SamBrieden.github.io/issues"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-react": "^7.9.4",
-    "@types/react": "^16.9.32",
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "gh-pages": "^2.2.0",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@vschool/lotus": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.20"
-  },
-  "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
     "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

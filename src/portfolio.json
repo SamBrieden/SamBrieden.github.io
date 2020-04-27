@@ -1,0 +1,100 @@
+[{
+    "category": "Experiences",
+    "subHeader": "Work",
+    "contentOne": [{
+        "type": "image",
+        "data": "/assets/V-School-Banner.jpeg"
+    }, {
+        "type": "copy",
+        "data": "V School is a coding and design school that focuses jumpstarting new careers in web-development and experience design. For 2+ years, I've been educating others on the basics of web-development, and helping them land jobs all over the country."
+    }],
+    "contentTwo": [{
+        "type": "title",
+        "data": "Instructor"
+    }, {
+        "type": "copy",
+        "data": "Each day consists of live code workshops, helping students with their assignments, and providing assessments. In addition to working with students, I collaborate with my team to optimize the student experience, update curriculum, and help pivot the company to a more sustainable and scalable future."
+    }, {
+        "type": "copy",
+        "data": "I helped pivot the curriculum to be completely online and responsive to student needs, I helped start the experience design (UX) program, and even prepared students for their roles at large companies (e.g. Adobe, MX, Podium, NuSkin, etc...)."
+    }, {
+        "type": "copy",
+        "data": "It is a priveledge working with folks from all walks of life, helping them advance their careers."
+    }]
+}, {
+    "category": "Projects",
+    "subHeader": "V School",
+    "contentTwo": [{
+        "type": "image",
+        "data": "/assets/vschool_lms.png",
+        "position": "0px"
+    }, {
+        "type": "link",
+        "data": "View Demo",
+        "path": "/mantis/0"
+    }],
+    "contentOne": [{
+        "type": "title",
+        "data": "Design & Development"
+    }, {
+        "type": "copy",
+        "data": "User interface was built with react and utilizes styled components and a branded design system. The latest version has been built using react-router, the context api, and various hooks. The backend is built in Express and interacts with the Airtable API and a Mongo database."
+    }, {
+        "type": "copy",
+        "data": "Research was conducted to identify a list of features, which were then sorted and reduced by current neccessity. Initial designs were tested and iterated upon to optimize the user's journey through the curriculum. V School branding was then incorporated, bringing the visual designs to life. Designs were completed in Adobe XD, and research was supported by Optimal Workshop."
+    }]
+}, {
+    "category": "Education",
+    "subHeader": "Studies",
+    "contentTwo": [{
+        "type": "title",
+        "data": "Frontend Masters"
+    }, {
+        "type": "copy",
+        "data": "4 Semesters of CS in 5 Hours with Brian Holt. Brian does an excellent job at explaining bigO and recursion, sorting algorithms, data structure interfaces, implementing data structures, and functional programming."
+    }, {
+        "type": "copy",
+        "data": "Complete Intro to React with Brian Holt. Brian does an excellent job at introducing react, including some fun history as well. The course walks one through creating a front-end app that interacts with a pet adoption api. He has a deep walkthrough of setting up your app using parcel, and some basic configurations he likes for parcel, prettier, and eslint."
+    }, {
+        "type": "copy",
+        "data": "Javascript, the Hard Parts with Will Sentance. Will goes on a deep dive into function scope and the thread of execution, helping clarify execution context."
+    }],
+    "contentOne": [{
+        "type": "image",
+        "data": "/assets/fe_masters.jpg"
+    }, {
+        "type": "image",
+        "data": "/assets/execution_context.png"
+    }]
+}, {
+    "category": "Education",
+    "subHeader": "Experience Design",
+    "contentOne": [{
+        "type": "copy",
+        "data": "Introduced to experience design by Ryan Potter of 'Super Top Secret' Agency"
+    }, {
+        "type": "copy",
+        "data": "Brett Briggs, a veteran of experience design, took me under his wing and pushed me into advancing my skills and understanding of research, design, and presentation. He opened my eyes to new ways being more empathetic, and considerate of all stake holders, including my obligation to the users/customers. I learned and practiced empathy mapping, journey mapping, elements and principals of design, block frames, wire frames, visual designs, user research, and various aspects of user strategy."
+    }],
+    "contentTwo": [{
+        "type": "copy",
+        "data": "Human Interface Guide by Apple. Yeah, it's big, but the insights are amazing as I learned how to interact inside of a popular design system, giving insights to the struggles and value of maintaining consistency."
+    }, {
+        "type": "copy",
+        "data": "UX Strategy By Jaime Levy. This is an excellent book for beginners and veterans alike. Her insights are the bar for quality of experience design."
+    }, {
+        "type": "copy",
+        "data": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days by Jack Knapp. This is a great book for anyone. Design can be endless, and this book helps strategize your time and resources to optimize the work done each week."
+    }]
+}, {
+    "category": "Education",
+    "subHeader": "Web Development",
+    "contentOne": [{
+        "type": "copy",
+        "data": "My mentors who helped get me started include Bob Ziroll, Eric Jones, and Marcus Peterson. They do an excellent job at breaking down complex thoughts into simple concepts. Being great instructors, they pulled no punches in providing me with a valuable learning experience. Today, I have the priveledge of working with these guys, continuously optimizing student experience and outcomes"
+    }],
+    "contentTwo": [{
+        "type": "copy",
+        "data": "The course took a deep dive into basics of javascript, then provided a deep dive into react, express, node, mongoose & mongo database, as well as researching and experimenting with various 3rd party api's."
+    }]
+}]

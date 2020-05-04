@@ -44,6 +44,27 @@
         "data": "Research was conducted to identify a list of features, which were then sorted and reduced by current neccessity. Initial designs were tested and iterated upon to optimize the user's journey through the curriculum. V School branding was then incorporated, bringing the visual designs to life. Designs were completed in Adobe XD, and research was supported by Optimal Workshop."
     }]
 }, {
+    "category": "Projects",
+    "subHeader": "Fylo",
+    "contentTwo": [{
+        "type": "image",
+        "data": "/Fylo/design/desktop-preview.jpg"
+    }, {
+        "type": "link",
+        "data": "View Demo",
+        "path": "/Fylo/index.html"
+    }],
+    "contentOne": [{
+        "type": "title",
+        "data": "Design & Development"
+    }, {
+        "type": "copy",
+        "data": "User interface was built with react and utilizes styled components and a branded design system. The latest version has been built using react-router, the context api, and various hooks. The backend is built in Express and interacts with the Airtable API and a Mongo database."
+    }, {
+        "type": "copy",
+        "data": "Research was conducted to identify a list of features, which were then sorted and reduced by current neccessity. Initial designs were tested and iterated upon to optimize the user's journey through the curriculum. V School branding was then incorporated, bringing the visual designs to life. Designs were completed in Adobe XD, and research was supported by Optimal Workshop."
+    }]
+}, {
     "category": "Education",
     "subHeader": "Studies",
     "contentTwo": [{
@@ -96,5 +117,20 @@
     "contentTwo": [{
         "type": "copy",
         "data": "The course took a deep dive into basics of javascript, then provided a deep dive into react, express, node, mongoose & mongo database, as well as researching and experimenting with various 3rd party api's."
+    }]
+}, {
+    "category": "Random",
+    "subHeader": "Floating Table",
+    "contentOne": [{
+        "type": "copy",
+        "data": "Fun easy to build floating table you can craft in less than an hour. It appears strange to see only strings holding up the table. This is an example of tensegrity, a structural principle based on a system of isolated components under compression inside a network of continuous tension."
+    }],
+    "contentTwo": [{
+        "type": "image",
+        "data": "assets/tensegrity.JPG"
+    }, {
+        "type": "link",
+        "data": "Visit Wiki",
+        "path": "https://en.wikipedia.org/wiki/Tensegrity"
     }]
 }]

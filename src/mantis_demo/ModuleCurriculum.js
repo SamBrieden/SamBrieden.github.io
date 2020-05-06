@@ -164,7 +164,7 @@ export default withRouter(props => {
     const modNum = props.location.pathname[8]
     const title = modNum === '0' ? 'Module 0: Basics of Coding' : modNum === '1' ? 'Module 1: Basics of Web Development' : modNum === '2' ? 'Module 2: Vanilla Web Development' : modNum === '3' ? 'Module 3: Intro to React' : modNum === '4' ? 'Module 4: Special Topics' : modNum === '5' ? 'Module 5: Backend Basics' : modNum === '6' ? 'Module 6: User Auth' : 'Something went wrong, sorry... not sorry'
     const mappedModule = testData.map(section => {
-    useEffect(() => window.scrollTo(0, 0), [modNum])
+    useEffect(() => window.scrollTo(0, 0), [])
         return (
             <React.Fragment key={section.sectionHeader}>
                 <SectionHeader>Section: {section.sectionHeader}</SectionHeader>

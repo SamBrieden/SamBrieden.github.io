@@ -5,6 +5,7 @@ import Card from './Card.js'
 import Portfolio from './portfolio.json'
 import { Switch, Route, Link } from 'react-router-dom'
 import MantisDemo from './mantis_demo/index.js'
+import TowerOfHinoi from './tower-of-hinoi/index.js'
 
 
 export default function () {
@@ -22,6 +23,14 @@ export default function () {
                     <h4 className="error">
                         This demo requires a wider screen. <Link to="/"> Return Home</Link>
                     </h4>
+                    <Link to='/' className='return'>Home</Link>
+                    </>
+                </Route>
+                <Route path='/tower_of_hinoi'>
+                    <>
+                    <div className="">
+                        <TowerOfHinoi />
+                    </div>
                     <Link to='/' className='return'>Home</Link>
                     </>
                 </Route>

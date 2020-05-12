@@ -5,7 +5,7 @@ import Card from './Card.js'
 import Portfolio from './portfolio.json'
 import { Switch, Route, Link } from 'react-router-dom'
 import MantisDemo from './mantis_demo/index.js'
-import TowerOfHinoi from './tower-of-hinoi/index.js'
+import TowerOfHanoi from './tower-of-hanoi/index.js'
 
 
 export default function () {
@@ -26,10 +26,10 @@ export default function () {
                     <Link to='/' className='return'>Home</Link>
                     </>
                 </Route>
-                <Route path='/tower_of_hinoi'>
+                <Route path='/tower_of_hanoi'>
                     <>
                     <div className="">
-                        <TowerOfHinoi />
+                        <TowerOfHanoi />
                     </div>
                     <Link to='/' className='return'>Home</Link>
                     </>

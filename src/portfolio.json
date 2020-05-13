@@ -65,6 +65,27 @@
         "data": "Research was conducted to identify a list of features, which were then sorted and reduced by current neccessity. Initial designs were tested and iterated upon to optimize the user's journey through the curriculum. V School branding was then incorporated, bringing the visual designs to life. Designs were completed in Adobe XD, and research was supported by Optimal Workshop."
     }]
 }, {
+    "category": "Projects",
+    "subHeader": "Tower of Hanoi",
+    "contentTwo": [{
+        "type": "image",
+        "data": "/assets/tower_of_hanoi.png"
+    }, {
+        "type": "link",
+        "data": "View Demo",
+        "path": "/tower_of_hanoi"
+    }],
+    "contentOne": [{
+        "type": "title",
+        "data": "Development Challenge"
+    }, {
+        "type": "copy",
+        "data": "Rules: Move one disk at a time. Disks may only be placed on one of the three towers. Disks may only stack on larger disks, or upon empty towers. You may only grab the disks from the top."
+    }, {
+        "type": "copy",
+        "data": "Fun little challenge to practice recognizing new patterns and implementing solutions."
+    }]
+}, {
     "category": "Education",
     "subHeader": "Studies",
     "contentTwo": [{

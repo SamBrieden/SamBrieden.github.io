@@ -32,7 +32,10 @@ export default function (towerData = {diskCount: 5, t1: [1,2,3,4,5], t2: [], t3:
         })
     }
 
-    function moveDisk (a, b) {
+    function moveDisk (a, b, isReset) {
+        if(isReset){
+            return setDisks(towerData)
+        }
         const { isTiny, t1, t2, t3, isEven, markedTower } = disks
         if(typeof a !== 'number' || typeof b !== 'number' ) {
             if(isTiny && isEven) {
